@@ -42,7 +42,7 @@ Resources:
       ClientIdList:
         - sts.amazonaws.com
       ThumbprintList:
-        - 6938fd4d98bab03faadb97b34396831e3780aea1 # https://github.blog/changelog/2022-01-13-github-actions-update-on-oidc-based-deployments-to-aws/
+        - 1b511abead59c6ce207077c0bf0e0043b1382612 # https://github.blog/changelog/2022-01-13-github-actions-update-on-oidc-based-deployments-to-aws/
 
   CloudformationPolicy:
     Type: AWS::IAM::Policy

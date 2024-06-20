@@ -6,7 +6,7 @@ on:
       - "master"
 
 env:
-  AWS_ROLE: arn:aws:iam::637423409385:role/serverless-3-tier
+  AWS_ROLE: arn:aws:iam::637423409385:role/serverless-3-tier-Role-mo1DGUoXsGDc
   AWS_REGION: eu-west-3
   APP_NAME: shopify
   NODE_ENVIRONMENT: development # the stage of your (node) app. Generally either development or production
