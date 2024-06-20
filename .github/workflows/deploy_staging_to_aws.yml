@@ -3,16 +3,16 @@ name: "Deploy to staging stack AWS CloudFormation"
 on:
   push:
     branches:
-      - "staging"
+      - "master"
 
 env:
-  AWS_ROLE: arn:aws:iam::01234567810:role/iam-role-for-github-0123456789
-  AWS_REGION: us-east-1
+  AWS_ROLE: arn:aws:iam::637423409385:role/serverless-3-tier
+  AWS_REGION: eu-west-3
   APP_NAME: shopify
   NODE_ENVIRONMENT: development # the stage of your (node) app. Generally either development or production
   AWS_ENVIRONMENT: staging # the stage of your AWS environment. I.e. testing, staging, production
   APP_DOMAIN: staging.your-domain.com # change to your domain
-  ALERT_EMAIL: <your_email>
+  ALERT_EMAIL: lightspeedcharleston88@gmail.com
   VPC_CIDR_BLOCK: 10.0.0.0/16
   SUBNET_0: 10.0.0.0/24
   SUBNET_1: 10.0.1.0/24
