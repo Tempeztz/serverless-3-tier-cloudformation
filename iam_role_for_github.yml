@@ -4,11 +4,11 @@ Description: Creates the role and permissions used by Github to be able to creat
 Parameters:
   GitHubOrg:
     Type: String
-    Default: "<YOUR_GITHUB_ACCOUNT>/*" ## the name of your GitHub repository allowed to deploy to AWS on your behalf
+    Default: "Tempeztz/serverless-3-tier-cloudformation" ## the name of your GitHub repository allowed to deploy to AWS on your behalf
 
   OIDCProviderArn:
     Description: Arn for the GitHub OIDC Provider.
-    Default: arn:aws:iam::01234567890:oidc-provider/token.actions.githubusercontent.com # the arn generated after following readme.md of this repo
+    Default: arn:aws:iam::637423409385:oidc-provider/token.actions.githubusercontent.com # the arn generated after following readme.md of this repo
     Type: String
 
 Conditions:
